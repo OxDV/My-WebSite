@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/23136af662.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/portfolio/redi_html_css/1week/project2/styles/main.css">
+</head>
+<body>
+  <div id="button-home">
+    <a href="/portfolio.html"><i class="fa-solid fa-arrow-left fa-bounce"></i></a>
+  </div>
+  <div id="container">
+  <h1>GeeksforGeeks Survey Form</h1>
+  <div class="main_div">  
+    <form action="">
+      <label for="name"><b>Name</b></label><br>
+      <input type="text" id="name" placeholder="Enter your Name"><br>
+      <label for="email"><b>Email</b></label><br>
+      <input type="email" id="email" placeholder="Enter your Email"><br>
+      <label for="age"><b>Age</b></label><br>
+      <input type="number" id="age" placeholder="Enter your Age"><br>
+      
+      <p><label for="describes_you"><b>Which option best describes you?</b></label></p>
+      <select class="your_describes" name="describes" id="describes_you">
+      <option value="" disabled selected>---</option>
+      <option value="">Teacher</option>
+      <option value="">Student</option>
+      </select>
+
+      <p><label for="recommed"><b>Would you recommed GeeksforGeeks to a freind?</b></label></p>
+      <input class="recommed" type="radio" name="recommed" id="yes" value="">
+      <label for="yes">Yes</label><br>
+      <input class="recommed"  type="radio" name="recommed" id="no" value="">
+      <label for="yes">No</label><br>
+      <input class="recommed" type="radio" name="recommed" id="maybe" value="">
+      <label for="yes">Maybe</label><br>
+      
+      <p><b>Languages and Frameworks known (Check all that apply)</b></p>
+      <input class="language" type="checkbox" id="C">
+      <label for="c">C</label><br>
+      <input class="language" type="checkbox" id="C++">
+      <label for="c++">C++</label><br>
+      <input class="language" type="checkbox" id="C#">
+      <label for="c#">C#</label><br>
+      <input class="language" type="checkbox" id="java">
+      <label for="java">Java</label><br>
+      <input class="language" type="checkbox" id="python">
+      <label for="python">Python</label><br>
+      <input class="language" type="checkbox" id="javascript">
+      <label for="javascript">JavaScript</label><br>
+      <input class="language" type="checkbox" id="react">
+      <label for="react">React</label><br>
+      <input class="language" type="checkbox" id="angular">
+      <label for="angular">Angular</label><br>
+      <input class="language" type="checkbox" id="django">
+      <label for="django">Django</label><br>
+      <input class="language" type="checkbox" id="spring">
+      <label for="spring">Spring</label><br>
+
+      <p><label for="comments"><b>Any comments or suggestions</b></label></p>
+      <textarea name="" id="comments" cols="30" rows="10" placeholder="Enter your comment"></textarea><br>
+
+      <input type="submit" name="" id="submit" value="Submit">
+      <input type="reset" name="" id="reset" value="Reset">
+    </form>
+  </div>
+</div>
+</body>
+</html>

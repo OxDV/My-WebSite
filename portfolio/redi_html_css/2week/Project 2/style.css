@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+
+#button-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 20px ;
+}
+
+#button-home a {
+  transform: scale(2);
+  color: black;
+  transition: 0.3s;
+}
+
+#button-home a:hover {
+  transform: scale(2.4);
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: gray;
+}
+
+hr {
+  border: 0.5px solid black;
+}
+
+#tittle-text {
+  width: 100%;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  background-color: gray;
+}
+
+#main-table {
+  width: 100%;
+  text-align: center;
+}
+
+.main-col {
+  font-family: 'Lato', sans-serif;
+}
+
+#main-table, tr, th, td {
+  border: 1px solid;
+}
+
+.name-car {
+  font-family: 'Lato', sans-serif;
+  width: 100px;
+}
+
+.car-img {
+  width: 300px;
+  height: 200px;
+}
+
+.car-article {
+  font-family: 'Lato', sans-serif;
+  width: 600px;
+}
+
+.ferrari-img {
+  width: 400px;
+  height: 200px;
+}
+
+.ferrari, .ferrari-img {
+  width: 450px;
+  font-family: 'Lato', sans-serif;
+}
+
+#main-table {
+  background-color: grey;
+  border-collapse: collapse;
+}
+
+.ferrari {
+  background-color: red;
+  border-color: black;
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+#button-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 20px ;
+}
+
+#button-home a {
+  transform: scale(2);
+  color: black;
+  transition: 0.3s;
+}
+
+#button-home a:hover {
+  transform: scale(2.4);
+}
+
+.menu {
+  background-color: rgb(61, 59, 59);
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu a:hover {
+  color:pink
+}
+
+nav img {
+  float: left;
+  width: 50px;
+}
+
+section {
+    height: 50vh;
+    text-align: center;
+}
+section img {
+    width:250px;
+    border-radius: 30%;
+}
+footer {
+    background-color:lightgrey;
+}
+
+footer {
+    height:20vh;
+    text-align: center;
+}

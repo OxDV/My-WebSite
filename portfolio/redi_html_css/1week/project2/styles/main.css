@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: green;
+}
+
+#button-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 20px ;
+}
+
+#button-home a {
+  transform: scale(2);
+  color: black;
+  transition: 0.3s;
+}
+
+#button-home a:hover {
+  transform: scale(2.4);
+}
+
+#container {
+  display: flex;
+  background-color: green;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_div {
+  background-color: white;
+  width: 500px;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+#name, #age, #email {
+  width: 475px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.your_describes {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#comments {
+  width: 493px;
+}
+
+#submit {
+  margin: 0 auto;
+  font-size: 19px;
+  display: block;
+  margin-top: 15px;
+  padding: 10px 100px 10px 100px;
+  background-color: green;
+  border-radius: 10px;
+  border: 1px solid green;
+}
+
+#submit:hover {
+  background-color: springgreen;
+  cursor: pointer;
+}
+
+#reset {
+  margin: 0 auto;
+  display: block;
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 7px 75px 7px 75px;
+  background-color: red;
+  border-radius: 10px;
+  border: 1px solid red;
+}
+
+#reset:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+.language {
+  cursor: pointer;
+}
+
+.recommed {
+  cursor: pointer;
+}
